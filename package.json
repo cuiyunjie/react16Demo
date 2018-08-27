@@ -15,7 +15,7 @@
     "release:test": "npm run clean && webpack --env test --config=webpack.config.js && npm run copy && npm run clean:src && node postrelease.js",
     "release:dist": "npm run clean && webpack --env production --config=webpack.config.js && npm run copy && npm run clean:src && node postrelease.js"
   },
-  "author": "sunlei",
+  "author": "cuiyunjie",
   "license": "ISC",
   "dependencies": {
     "acorn-dynamic-import": "^3.0.0",
