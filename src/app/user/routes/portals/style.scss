@@ -1,0 +1,18 @@
+.modal-wrap {
+  width: 200px;
+  height: 200px;
+  background: #fff;
+  border-radius: 4px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 1rem;
+  margin: -100px 0 0 -100px;
+  .anticon-close {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    font-size:16px;
+    cursor: pointer;
+  }
+}
